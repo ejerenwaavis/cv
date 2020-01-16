@@ -1,0 +1,165 @@
+
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #555;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+
+a{
+  color: #653614;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+h1 {
+  margin: 20px auto 0 auto;
+  font-size: 5em;
+  font-family: 'Parisienne', cursive;
+  color: #745739;
+}
+
+h2 {
+  color: #bfa691;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+h3 {
+  color: #886356;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color: #886356;
+  font-size: 0.7rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 1.8rem;
+}
+
+.dotted-hr {
+    border-width: 7px;
+    border-style: dotted;
+    border-color: #d1bcad;
+    border-top: 0;
+    width: 5%;
+    margin: 100px auto;
+}
+
+
+.top-container {
+  background-color: #f9f6f7;
+  position: relative;
+  padding-top: 120px;
+}
+
+.tagline {
+  margin-top: 0;
+  font-weight: normal;
+  line-height: 0;
+  font-size: 1.6em;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 50px;
+}
+.top-cloud-2 {
+  position: absolute;
+  right: 22%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+}
+
+
+
+.profile {
+  width: 50%;
+  margin: 140px auto 70px auto;
+}
+.profile > p {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.profile-img {
+  border-radius: 50%;
+  box-shadow: #777 1px 3px 6px;
+  width: 25%;
+}
+
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-col > img {
+  width: 50%;
+}
+
+.skill-col {
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  margin: 0 -2px;
+}
+
+.left-float {
+  float: left;
+  margin-right: 30px;
+}
+.right-float {
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: linear-gradient(#b99268, #886356);
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: #fff;
+  transition: 8;
+
+}
+
+.btn:hover {
+  background: #b99268 ;
+  padding: 8px 16px;
+  /* border: solid 1px; */
+  /* border-radius: 6px; */
+  /* border-color: #886356; */
+  /* color: #886356; */
+  transition: 8;
+}
+
+.bottom-container{
+  color: #d9ccd1;
+  background-color: #745739;
+  font-size: 0.8rem;
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.bottom-container > a {
+  color: #d9ccd1;
+  margin: auto 10px auto;
+}
+
+.bottom-container > a:hover {
+  color: #fff;
+}
